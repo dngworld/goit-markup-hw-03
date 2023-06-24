@@ -1,0 +1,237 @@
+:root {
+  --main-dark-cl: #434455;
+  --main-white-cl: #ffffff;
+  --dark-title-cl: #2e2f42;
+  --white-bg-cl: #f4f4fd;
+  --acent-cl: #4d5ae5;
+  --link-cl: #9747ff;
+  --btn-cl: #404bbf;
+}
+
+/**Common styles*/
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main-dark-cl);
+  background-color: var(--main-white-cl);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/**Header styles*/
+.header {
+  background-color: var(--main-white-cl);
+}
+.header-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark-title-cl);
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--acent-cl);
+}
+.acent-dark {
+  color: var(--dark-title-cl);
+}
+.acent-light {
+  color: var(--white-bg-cl);
+}
+.header-list {
+}
+.header-item {
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-title-cl);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--btn-cl);
+}
+.adress {
+  font-style: normal;
+}
+.adress-list {
+}
+
+.adress-item {
+}
+.adress-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-dark-cl);
+}
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--btn-cl);
+}
+/**Hero styles*/
+.hero {
+  background-color: var(--dark-title-cl);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--main-white-cl);
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--main-white-cl);
+  background-color: var(--acent-cl);
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--btn-cl);
+}
+/**Features styles*/
+.features {
+}
+.feature-title {
+}
+.feature-list {
+}
+.feature-item {
+}
+.feature-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-title-cl);
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/**Production styles*/
+.production {
+  background-color: var(--main-white-cl);
+}
+.production-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-title-cl);
+}
+.production-list {
+}
+.production-item {
+}
+.production-img {
+}
+/**Team styles*/
+.team {
+  background-color: var(--white-bg-cl);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-title-cl);
+}
+.team-list {
+}
+.team-item {
+  background-color: var(--main-white-cl);
+}
+.team-card {
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-title-cl);
+}
+.team-desc {
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 0.02em;
+}
+/**Footer styles*/
+.footer {
+  background-color: var(--dark-title-cl);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-bg-cl);
+}
+/**Portfolio*/
+.main {
+  background-color: var(--main-white-cl);
+}
+.main-title {
+}
+.filter-list {
+}
+
+.filter-item {
+}
+
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--acent-cl);
+  background-color: var(--white-bg-cl);
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--main-white-cl);
+  background-color: var(--btn-cl);
+}
+
+.portfolio-img {
+}
+.portfolio-item {
+}
+.img-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-title-cl);
+}
+.img-title-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-dark-cl);
+}
