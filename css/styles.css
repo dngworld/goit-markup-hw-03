@@ -14,15 +14,43 @@ body {
   color: var(--main-dark-cl);
   background-color: var(--main-white-cl);
 }
+
+/**Reset*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .link {
   text-decoration: none;
 }
+/**Base styles*/
+.section {
+}
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 /**Header styles*/
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border: 1px;
   background-color: var(--main-white-cl);
 }
 .header-nav {
@@ -83,6 +111,8 @@ body {
 }
 /**Hero styles*/
 .hero {
+  padding-top: 188px;
+  padding-bottom: 292px;
   background-color: var(--dark-title-cl);
 }
 .hero-title {
