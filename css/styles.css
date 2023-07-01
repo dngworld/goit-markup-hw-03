@@ -6,6 +6,7 @@
   --acent-cl: #4d5ae5;
   --link-cl: #9747ff;
   --btn-cl: #404bbf;
+  --border-cl: #e7e9fc;
 }
 
 /**Common styles*/
@@ -56,9 +57,7 @@ img {
 
 /**Header styles*/
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  border: 1px;
+  border-bottom: 1px solid var(--border-cl);
   background-color: var(--main-white-cl);
 }
 .header-container {
@@ -96,6 +95,8 @@ img {
   gap: 40px;
 }
 .header-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link {
@@ -142,7 +143,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--main-white-cl);
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
   margin: 0 auto;
 }
@@ -173,14 +174,27 @@ img {
   padding-bottom: 120px;
 }
 .feature-title {
+  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
 .feature-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
 .feature-item {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .feature-subtitle {
   margin-bottom: 8px;
@@ -216,13 +230,13 @@ img {
   gap: 24px;
 }
 .production-item {
-  width: calc((100%-2 * 24px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .production-img {
 }
 /**Team styles*/
 .team {
-  padding-bottom: 120px;
+  padding: 120px 0;
   background-color: var(--white-bg-cl);
 }
 .team-title {
@@ -233,8 +247,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-title-cl);
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -242,14 +255,14 @@ img {
   gap: 24px;
 }
 .team-item {
-  width: calc((100% -3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
   background-color: var(--main-white-cl);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-card {
 }
-.card-content{
-  padding-top: 32px;
-  padding-bottom: 32px;
+.card-content {
+  padding: 32px 16px;
 }
 .team-subtitle {
   font-weight: 500;
@@ -258,6 +271,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--dark-title-cl);
   text-align: center;
+  margin-bottom: 8px;
 }
 .team-desc {
   font-size: 16px;
@@ -271,32 +285,48 @@ img {
   padding-bottom: 100px;
   background-color: var(--dark-title-cl);
 }
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer-text {
   display: flex;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white-bg-cl);
-  width: 264px;
-  margin-top: 16px;
+  max-width: 264px;
 }
 /**Portfolio*/
 .main {
+  padding-top: 96px;
+  padding-bottom: 120px;
   background-color: var(--main-white-cl);
 }
 .main-title {
+  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.filter {
 }
 .filter-list {
   display: flex;
   gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
-  padding-left: 427px;
-  
+  justify-content: center;
+  margin-bottom: 72px;
 }
 
 .filter-item {
-  width: calc((100%-4*24px) /5);
 }
 
 .filter-btn {
@@ -309,28 +339,31 @@ img {
   color: var(--acent-cl);
   background-color: var(--white-bg-cl);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--border-cl);
+  border-radius: 4px;
 }
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--main-white-cl);
   background-color: var(--btn-cl);
+  border: 1px solid transparent;
 }
 
 .portfolio-img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item {
-  width: calc((100%-7 * 24px) / 8);
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-card-content {
-  padding: 32px; 16px;
-  
-  border: 1px solid  #E7E9FC;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
   border-top: none;
-
 }
 
 .img-title {
@@ -339,6 +372,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-title-cl);
+  margin-bottom: 8px;
 }
 .img-title-desc {
   font-size: 16px;
