@@ -247,6 +247,10 @@ img {
 }
 .team-card {
 }
+.card-content{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -284,15 +288,22 @@ img {
 }
 .filter-list {
   display: flex;
+  gap: 24px;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  padding-left: 427px;
+  
 }
 
 .filter-item {
+  width: calc((100%-4*24px) /5);
 }
 
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
+  text-align: center;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--acent-cl);
@@ -314,6 +325,14 @@ img {
 .portfolio-item {
   width: calc((100%-7 * 24px) / 8);
 }
+.portfolio-card-content {
+  padding: 32px; 16px;
+  
+  border: 1px solid  #E7E9FC;
+  border-top: none;
+
+}
+
 .img-title {
   font-weight: 500;
   font-size: 20px;
