@@ -95,8 +95,7 @@ img {
   gap: 40px;
 }
 .header-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .header-link {
@@ -299,8 +298,6 @@ img {
 }
 /**Portfolio*/
 .main {
-  padding-top: 96px;
-  padding-bottom: 120px;
   background-color: var(--main-white-cl);
 }
 .main-title {
@@ -318,6 +315,8 @@ img {
   overflow: hidden;
 }
 .filter {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .filter-list {
   display: flex;
