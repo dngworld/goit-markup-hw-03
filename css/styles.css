@@ -73,7 +73,6 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--dark-title-cl);
-  padding: 24px 0;
 }
 .logo {
   margin-right: 76px;
@@ -84,6 +83,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--acent-cl);
+}
+.header-logo {
+  padding: 24px 0;
 }
 .acent-dark {
   color: var(--dark-title-cl);
@@ -96,6 +98,7 @@ img {
   gap: 40px;
 }
 .header-item {
+  padding: 24px 0;
 }
 
 .header-link {
