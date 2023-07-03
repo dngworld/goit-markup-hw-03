@@ -74,6 +74,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--dark-title-cl);
 }
+.nav-link {
+  padding: 24px 0;
+}
 .logo {
   margin-right: 76px;
   font-family: Raleway, sans-serif;
@@ -85,7 +88,6 @@ img {
   color: var(--acent-cl);
 }
 .header-logo {
-  padding: 24px 0;
 }
 .acent-dark {
   color: var(--dark-title-cl);
@@ -98,7 +100,6 @@ img {
   gap: 40px;
 }
 .header-item {
-  padding: 24px 0;
 }
 
 .header-link {
@@ -121,7 +122,6 @@ img {
 }
 
 .adress-item {
-  padding: 24px 0;
 }
 .adress-link {
   font-size: 16px;
