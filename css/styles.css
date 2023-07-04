@@ -147,8 +147,8 @@ img {
   text-align: center;
   color: var(--main-white-cl);
   max-width: 496px;
-  margin-bottom: 48px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 .hero-btn {
   font-weight: 500;
